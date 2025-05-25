@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memre"
+version = "0.1.0"
+description = "Memory infrastructure for agents and LLMs"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [{name = "Your Name", email = "you@example.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+]
+dependencies = []
